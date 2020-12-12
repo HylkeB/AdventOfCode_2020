@@ -48,7 +48,7 @@ private fun containsShinyGold(allRules: Map<String, BagRule>, bagRule: BagRule?)
 }
 
 private fun getBagRules(): Map<String, BagRule> {
-    val file = File("/Users/hylkebron/Projects/AdventOfCode_2020/assets/day7.txt")
+    val file = File("./assets/day7.txt")
 
     val rules = hashMapOf<String, BagRule>()
     file.forEachLine { line ->

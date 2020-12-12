@@ -46,7 +46,7 @@ private fun isNumberSumOfTwoInRange(number: Long, range: List<Long>): Boolean {
 }
 
 private fun getNumbers(): List<Long> {
-    val file = File("/Users/hylkebron/Projects/AdventOfCode_2020/assets/day9.txt")
+    val file = File("./assets/day9.txt")
     val numbers = mutableListOf<Long>()
     file.forEachLine {
         numbers.add(it.toLong())

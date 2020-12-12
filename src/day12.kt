@@ -26,7 +26,7 @@ fun day12b() {
 }
 
 private fun getShipInstructions(): List<ShipInstruction> {
-    val file = File("/Users/hylkebron/Projects/AdventOfCode_2020/assets/day12.txt")
+    val file = File("./assets/day12.txt")
     val instructions = mutableListOf<ShipInstruction>()
     file.forEachLine {
         val instructionChar = it[0]

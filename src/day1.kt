@@ -1,7 +1,7 @@
 import java.io.File
 
 fun day1a() {
-    val file = File("/Users/hylkebron/Projects/AdventOfCode_2020/assets/day1.txt")
+    val file = File("./assets/day1.txt")
     val numbers = mutableListOf<Int>()
     file.forEachLine {
         numbers.add(it.toInt())
@@ -17,7 +17,7 @@ fun day1a() {
 }
 
 fun day1b() {
-    val file = File("/Users/hylkebron/Projects/AdventOfCode_2020/assets/day1.txt")
+    val file = File("./assets/day1.txt")
     val numbers = mutableListOf<Int>()
     file.forEachLine {
         numbers.add(it.toInt())

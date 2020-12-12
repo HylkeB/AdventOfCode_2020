@@ -23,7 +23,7 @@ fun day5b() {
 
 private fun getTickets(): List<Ticket> {
 
-    val file = File("/Users/hylkebron/Projects/AdventOfCode_2020/assets/day5.txt")
+    val file = File("./assets/day5.txt")
     val tickets = mutableListOf<Ticket>()
     file.forEachLine {
         tickets.add(Ticket(it))

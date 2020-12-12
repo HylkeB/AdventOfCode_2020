@@ -61,7 +61,7 @@ fun day8b() {
 }
 
 private fun getListOfInstructions(): List<Instruction> {
-    val file = File("/Users/hylkebron/Projects/AdventOfCode_2020/assets/day8.txt")
+    val file = File("./assets/day8.txt")
     val instructions = mutableListOf<Instruction>()
     var index = 0
     file.forEachLine {

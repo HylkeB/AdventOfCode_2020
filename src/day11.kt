@@ -101,7 +101,7 @@ private fun getIndexesOfSpotsToMutateForAdjacentNeighbors(spots: List<Spot>): Li
 }
 
 private fun getSpots(): List<Spot> {
-    val file = File("/Users/hylkebron/Projects/AdventOfCode_2020/assets/day11.txt")
+    val file = File("./assets/day11.txt")
     val spots = mutableListOf<Spot>()
     var rowIndex = 0
     file.forEachLine {  row ->

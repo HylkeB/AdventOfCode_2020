@@ -6,7 +6,7 @@ fun day4a() {
 }
 
 private fun readPasswords(): List<Passport> {
-    val file = File("/Users/hylkebron/Projects/AdventOfCode_2020/assets/day4.txt")
+    val file = File("./assets/day4.txt")
 
     val passports = mutableListOf(Passport())
     file.forEachLine {

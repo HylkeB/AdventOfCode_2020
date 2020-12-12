@@ -11,7 +11,7 @@ fun day6b() {
 }
 
 private fun getGroups(): List<Group> {
-    val file = File("/Users/hylkebron/Projects/AdventOfCode_2020/assets/day6.txt")
+    val file = File("./assets/day6.txt")
     val groups = mutableListOf<Group>()
     var currentGroup = Group()
     groups.add(currentGroup)

@@ -47,7 +47,7 @@ private fun getTreesForSlope(right: Int, down: Int, environment: MutableList<Lis
 }
 
 private fun getRowsOfEnvironment(): MutableList<List<EnvironmentSquare>> {
-    val file = File("/Users/hylkebron/Projects/AdventOfCode_2020/assets/day3.txt")
+    val file = File("./assets/day3.txt")
     val rowsOfEnvironment = mutableListOf<List<EnvironmentSquare>>()
     file.forEachLine {
         val row = it.map { char ->

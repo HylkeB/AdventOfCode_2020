@@ -11,7 +11,7 @@ fun day2b() {
 }
 
 fun getEntries(): List<PasswordEntry> {
-    val file = File("/Users/hylkebron/Projects/AdventOfCode_2020/assets/day2.txt")
+    val file = File("./assets/day2.txt")
     val entries = mutableListOf<PasswordEntry>()
     file.forEachLine {
         val firstNumber = it.split("-")[0].toInt()

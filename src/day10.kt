@@ -44,7 +44,7 @@ private fun countUniqueAdapterPathsFromPosition(currentAdapter: Adapter, indexSc
 
 
 private fun getAdapters(): List<Adapter> {
-    val file = File("/Users/hylkebron/Projects/AdventOfCode_2020/assets/day10.txt")
+    val file = File("./assets/day10.txt")
     val adapters = mutableListOf<Adapter>()
     adapters.add(Adapter(0))
     file.forEachLine {
