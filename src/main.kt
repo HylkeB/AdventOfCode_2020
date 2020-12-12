@@ -1,0 +1,30 @@
+fun main() {
+    val startTime = System.currentTimeMillis()
+
+    // Put excercises to test here
+//    day1a()
+//    day1b()
+//    day2a()
+//    day2b()
+//    day3a()
+//    day3b()
+//    day4a()
+//    day5a()
+//    day6a()
+//    day6b()
+//    day7a()
+//    day7b()
+//    day8a()
+//    day8b()
+//    day9a()
+//    day9b()
+//    day10a()
+//    day10b()
+//    day11a()
+//    day11b()
+//    day12a()
+    day12b()
+
+    val endTime = System.currentTimeMillis()
+    println("Executed in ${endTime - startTime}ms")
+}
